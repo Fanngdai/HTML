@@ -1,0 +1,25 @@
+{
+    "tags": [
+	{ "tag": "a",	    "attributes": ["href"],	    "has_closing_tag": "true",	"legal_parents": ["body", "div", "li", "p", "td", "h1", "h2", "h3", "h4", "h5", "h6", "span", "strong"] },
+	{ "tag": "br",	    "attributes": [],		    "has_closing_tag": "false",	"legal_parents": ["a", "body", "div", "li", "p", "ol", "td", "h1", "h2", "h3", "h4", "h5", "h6", "span"] },
+	{ "tag": "div",	    "attributes": ["class", "id"],  "has_closing_tag": "true",	"legal_parents": ["body", "div"] },
+	{ "tag": "img",	    "attributes": ["alt", "src"],   "has_closing_tag": "false",	"legal_parents": ["a", "body", "div", "li", "p", "td", "h1", "h2", "h3", "h4", "h5", "h6"] },
+	{ "tag": "li",	    "attributes": ["class", "id"],  "has_closing_tag": "true",	"legal_parents": ["ol", "ul"] },
+	{ "tag": "ol",	    "attributes": ["class", "id"],  "has_closing_tag": "true",	"legal_parents": ["body", "div", "li"] },
+	{ "tag": "p",	    "attributes": ["class"],	    "has_closing_tag": "true",	"legal_parents": ["body", "div"] },
+	{ "tag": "Text",    "attributes": ["text"],         "has_closing_tag": "false",	"legal_parents": ["a", "div", "li", "p", "td", "title", "h1", "h2", "h3", "h4", "h5", "h6", "span", "strong"] },
+	{ "tag": "table",   "attributes": ["class", "id"],  "has_closing_tag": "true",	"legal_parents": ["body", "div"] },
+	{ "tag": "td",	    "attributes": ["class", "id"],  "has_closing_tag": "true",	"legal_parents": ["tr"] },
+	{ "tag": "tr",	    "attributes": ["class", "id"],  "has_closing_tag": "true",	"legal_parents": ["table"] },
+	{ "tag": "ul",	    "attributes": ["class", "id"],  "has_closing_tag": "true",	"legal_parents": ["body", "div", "li"] },
+        { "tag": "h1",	    "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["a", "body", "div", "li", "p", "td"] },
+        { "tag": "h2",	    "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["a", "body", "div", "li", "p", "td"] },
+        { "tag": "h3",	    "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["a", "body", "div", "li", "p", "td"] },
+        { "tag": "h4",	    "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["a", "body", "div", "li", "p", "td"] },
+        { "tag": "h5",	    "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["a", "body", "div", "li", "p", "td"] },
+        { "tag": "h6",	    "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["a", "body", "div", "li", "p", "td"] },
+        { "tag": "hr",	    "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["body", "div", "li", "p", "td"] },
+        { "tag": "span",    "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["body", "li", "p", "div", "h1", "h2", "h3", "h4", "h5", "h6", "strong"] },
+        { "tag": "strong",  "attributes": ["text"],         "has_closing_tag": "true",	"legal_parents": ["a", "div", "li", "p", "td", "h1", "h2", "h3", "h4", "h5", "h6"] }
+    ]
+}

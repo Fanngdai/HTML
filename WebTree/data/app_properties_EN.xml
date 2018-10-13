@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the SimpleAppFramework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"  value="Web Tree"></property>
+	<property name="APP_LOGO"	    value="WebTreeLogo.png"></property>
+	<property name="APP_PATH_CSS"   value="css/"></property>
+	<property name="APP_CSS"	    value="wt_style.css"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="EXIT_ICON"      value="Exit.png"></property>
+        <property name="CUT_ICON"       value="Cut.png"></property>
+        <property name="COPY_ICON"      value="Copy.png"></property>
+        <property name="PASTE_ICON"     value="Paste.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="Create a New Page"></property>
+        <property name="LOAD_TOOLTIP"		value="Load an Existing Page"></property>
+        <property name="SAVE_TOOLTIP"		value="Save this Page"></property>
+        <property name="EXIT_TOOLTIP"		value="Exit the Application"></property>
+        <property name="CUT_TOOLTIP"		value="Cut"></property>
+        <property name="COPY_TOOLTIP"		value="Copy"></property>
+        <property name="PASTE_TOOLTIP"		value="Paste"></property>
+        
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="Close"></property>
+
+        <property name="TAG_LOADING_ERROR_MESSAGE"      value="Error loading HTML Tags"></property>
+        <property name="TAG_LOADING_ERROR_TITLE"        value="Tag Loading Error"></property>
+        <property name="NEW_ERROR_MESSAGE"              value="An error occured creating New work."></property>
+        <property name="NEW_ERROR_TITLE"                value="New Work Error"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="An error occured loading work."></property>
+        <property name="LOAD_ERROR_TITLE"               value="Load Work Error"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="An error occured saving work."></property>
+        <property name="SAVE_ERROR_TITLE"               value="Save Work Error"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="An error occured loading a properties file."></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="Properties File Loading Error."></property>
+        <property name="UNABLE_TO_PASTE"                value="Not valid position to paste."></property>
+	
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="New Work Ready for Editing"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="New Work Created"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="File Loading Completed and ready for editing"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="Loading Completed"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="File Saving Completed"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="Saving Completed"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Would you like to save your unsaved work first?"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="Save unsaved work?"></property>
+	
+        <property name="NEW_CREATED_MESSAGE"		value="New Work Created but not yet Saved"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="The Work has been Loaded"></property>
+        <property name="WORK_SAVED_MESSAGE"         value="The Work has been Saved"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Do you want to save your unsaved work first?"></property>
+        <property name="SAVE_WORK_TITLE"            value="Save your work"></property>
+        <property name="LOAD_WORK_TITLE"            value="Select work file to load"></property>
+        <property name="WORK_FILE_EXT"              value="wt"></property>
+        <property name="WORK_FILE_EXT_DESC"         value="Web Tree Files"></property>
+
+        <!-- PROGRAM ICON FILES -->
+        <property name="REMOVE_ELEMENT_ICON"	    value="RemoveElement.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="REMOVE_ELEMENT_TOOLTIP"	    value="Remove Element"></property>
+	
+	<!-- MESSAGES -->
+	<property name="REMOVE_ELEMENT_MESSAGE"         value="Are you sure you wish to remove that element?"></property>
+		
+	<!-- ERROR MESSAGES AND TITLES FOR THEIR DIALOGS -->
+	<property name="ATTRIBUTE_UPDATE_ERROR_MESSAGE"	    value="WARNING: An error occured updating the element's attribute."></property>
+	<property name="ATTRIBUTE_UPDATE_ERROR_TITLE"	    value="Attribute Update Error"></property>
+	<property name="ADD_ELEMENT_ERROR_MESSAGE"          value="WARNING: An error occured adding the element."></property>
+	<property name="ADD_ELEMENT_ERROR_TITLE"            value="Add Element Error"></property>
+	<property name="REMOVE_ELEMENT_ERROR_MESSAGE"	    value="WARNING: An error occured removing the element."></property>
+	<property name="REMOVE_ELEMENT_ERROR_TITLE"         value="Remove Element Error"></property>
+	<property name="ILLEGAL_NODE_REMOVAL_ERROR_MESSAGE" value="WARNING: That element cannot be removed."></property>
+	<property name="ILLEGAL_NODE_REMOVAL_ERROR_TITLE"   value="Illegal Node Removal Error"></property>
+    <property name="ILLEGAL_NODE_COPY_ERROR_MESSAGE"    value="WARNING: That element cannot be copied. (It cannot be pasted)"></property>
+    <property name="ILLEGAL_NODE_COPY_ERROR_TITLE"      value="Illegal Node Copy Error"></property>
+	<property name="TEMP_PAGE_LOAD_ERROR_MESSAGE"	    value="WARNING: An error occured loading the starting temp page."></property>
+	<property name="TEMP_PAGE_LOAD_ERROR_TITLE"         value="Temp Page Loading Error"></property>
+	<property name="CSS_EXPORT_ERROR_MESSAGE"           value="WARNING: An error occured exporting the CSS file."></property>
+	<property name="CSS_EXPORT_ERROR_TITLE"             value="CSS Export Error"></property>
+	<property name="UPDATE_ERROR_MESSAGE"               value="An error occured updating the UI"></property>
+	<property name="UPDATE_ERROR_TITLE"                 value="UI Update Error"></property>
+                
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>
